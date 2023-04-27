@@ -1,0 +1,8 @@
+db:
+  url: jdbc:postgresql://localhost:5432/AgonaSemester-db
+  username: postgres
+  password: postgres
+  hikari:
+    max-pool-size: 10
+  driver:
+    classname: org.postgresql.Driver

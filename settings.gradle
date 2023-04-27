@@ -1,0 +1,5 @@
+rootProject.name = 'AgonaSemester'
+include 'AgonaSemester-api'
+include 'AgonaSemester-db'
+include 'AgonaSemester-impl'
+

@@ -1,0 +1,10 @@
+databaseChangeLog:
+  - include:
+      file: DDL/20230218-AGONA-1-init-db.yaml
+      relativeToChangelogFile: true
+  - include:
+      file: DDL/20230219-AGONA-1-add-email-column-to-user.yaml
+      relativeToChangelogFile: true
+  - include:
+      file: DDL/20230220-AGONA-1-add-account_post-table.yaml
+      relativeToChangelogFile: true

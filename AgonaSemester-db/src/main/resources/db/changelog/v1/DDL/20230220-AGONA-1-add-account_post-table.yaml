@@ -1,0 +1,20 @@
+databaseChangeLog:
+  - changeSet:
+      id: 3
+      author: H8M3
+      preConditions:
+        - onFail: MARK_RAN
+      changes:
+        - createTable:
+            tableName: account_post
+            columns:
+              - column:
+                  name: posts_id
+                  type: uuid
+                  constraints:
+                    foreignKeyName: pk_post
+              - column:
+                  name: userentity_id
+                  type: uuid
+                  constraints:
+                    foreignKeyName: pk_account
